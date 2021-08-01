@@ -62,3 +62,34 @@ h2.warning {
   cursor: pointer;
   color: #cccccc;
 }
+@media only screen and (max-width: 700px) {
+  .peuktijd {
+    font-size: 32px;
+    font-weight: 700;
+    color: green;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+  }
+}
+
+@media only screen and (max-width: 430px) {
+  .peuktijd {
+    font-size: 22px;
+    font-weight: 700;
+    color: green;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+  }
+  .main_title {
+    font-size: 17px;
+    font-weight: 700;
+    margin-bottom: 10px;
+  }
+  .timer_box__text {
+    font-size: 15px;
+  }
+}
