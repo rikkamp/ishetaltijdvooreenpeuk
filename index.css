@@ -1,0 +1,64 @@
+body {
+  margin: 0;
+}
+
+.main_section {
+  height: 100vh;
+}
+.main_title {
+  font-size: 27px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.peuktijd {
+  font-size: 52px;
+  font-weight: 700;
+  color: green;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.main_box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 0 auto;
+  height: 100%;
+  font-family: Ubuntu, sans-serif;
+}
+
+.timer_box {
+  display: flex;
+  flex-direction: column;
+}
+
+.time__button {
+  width: fit-content;
+  padding: 10px 20px;
+  margin: 0 auto;
+  border: 0;
+  background-color: #969696;
+  color: white;
+  border-radius: 16px;
+}
+
+.time {
+  width: 40px;
+}
+
+.timer_box__text {
+  color: #969696;
+}
+
+h2.warning {
+  color: red;
+}
+
+.time__button:hover {
+  cursor: pointer;
+  color: #cccccc;
+}
