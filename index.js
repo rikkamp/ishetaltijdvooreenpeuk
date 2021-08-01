@@ -7,7 +7,7 @@ const toggleText = (toggle) => {
     peukText.innerHTML = 'JA! het is tijd voor een peuk';
     peukText.classList.remove('warning');
   } else {
-    peukText.innerHTML = 'Miscchien is het wijs om nog heel even te wachten';
+    peukText.innerHTML = 'Mischien is het wijs om nog heel even te wachten';
     peukText.classList.add('warning');
   }
 };
