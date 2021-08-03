@@ -74,6 +74,11 @@ h2.warning {
   }
 }
 
+.ad {
+  width: fit-content;
+  margin: 0 auto;
+}
+
 .image {
   height: 20%;
   display: flex;
